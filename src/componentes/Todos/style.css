@@ -1,0 +1,28 @@
+.task{
+    display: flex;
+    height: 25px;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px ;
+    margin: 16px;
+    text-align: center;
+    line-height: 25px;
+    font-size: larger;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out
+}
+
+.task:hover{
+    background-color:  #F84546 ;
+}
+
+.task_button{
+    border-radius: 50%;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+}
+.task_button:hover{
+    box-shadow:rgba(138, 130, 130, 0.856);
+    background-color: cadetblue;
+}
