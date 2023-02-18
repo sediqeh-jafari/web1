@@ -14,18 +14,16 @@ const initial_tasks = [
     { id: 'kg', text: 'کار5' },
 ]
 
-function Renderresult( ) {
+function Renderresult( {searchquery}) {
     const [tasks, seTtasks] = useState(initial_tasks);
-    const [searchquery, seTsearchquery] = useState('');
 
 
-    // const resultSearch = tasks.filter((item) => item.text.startsWith(Event.target.value));
-
+    const resultSearch = tasks.filter((item) => item.text.startsWith(searchquery));
     console.log(searchquery);
     function rendermain() {
       
 
-        tasks.map((tasks) =>
+        resultSearch.map((tasks) =>
             <Todos
                 ondelete={handleDelete}
                 items={tasks}
