@@ -1,0 +1,17 @@
+.CT_button{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: antiquewhite;
+    margin: 12px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.CT_button:hover {
+    cursor: pointer;
+    box-shadow: 0 32px 50px 12px rgba(0, 0, 0, 0.2);
+    border-color: rgb(246, 237, 237);
+}

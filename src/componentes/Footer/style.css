@@ -3,18 +3,27 @@
     font-size: 16px;
     border-top: 3px solid rgb(235, 222, 222);
     background-color: white;
+}
+
+.footer--dark {
+    padding: 10px 8px;
+    font-size: 16px;
+    border-top: 3px solid rgb(56, 53, 53);
+    background-color: rgb(9, 9, 9);
+    color: white;
+}
+
+.footer>.footer_buttons{
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    /* flex-direction:row ; */
+    margin: 15px;
+    border-radius: 50%;
+
 }
-.footer>p{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-}
-.left {
-    width: 50%;
+
+.footer>.footer_buttons>.left {
+    width: 47%;
     height: 48px;
     font-size: 16px;
     background-color: white;
@@ -22,24 +31,47 @@
     line-height: 48px;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
+    border-radius: 8px;
 
 }
-.right{
-    width: 50%;
+
+.footer>.footer_buttons>.right {
+    width: 47%;
     height: 48px;
     font-size: 16px;
-    background-color:white;
+    color: white;
     text-align: center;
     line-height: 48px;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
+    background-color: #F84546;
+    border-radius: 8px;
 }
-.right:hover{
-    background-color:  #F84546 ;
+
+.footer>.footer_buttons>.right:hover {
+    background-color: white;
+    color: #F84546;
+}
+
+.footer>.footer_buttons>.left:hover {
+    background-color: #F84546;
     color: white;
 }
 
-.left:hover{
-    background-color:  #F84546 ;
-    color: white;
+
+.footer_input {
+    width: 90%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid gray;
+    display: inline;
+    margin: 0 12px;
+}
+
+.footer_input:hover {
+    box-shadow: 0 32px 50px 12px rgba(0, 0, 0, 0.2);
+}
+
+.footer>.ERROR {
+    margin: 12px;
 }

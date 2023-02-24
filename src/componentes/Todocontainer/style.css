@@ -1,20 +1,29 @@
-.parent {
-    /* justify-content: space-between; */
+.parent{
     font-size: 16px;
     width: 200px;
-    /* height: 500em; */
-    /* height: 50em; text-overflow: ellipsis; */
     width: 450px;
-    /* height: 700px; */
     box-shadow: 0 32px 50px 12px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     overflow: hidden;
     background-color: white;
-    /* height: 50em; */
-    /* text-overflow: ellipsis; */
     
 }
 
+
+.parent--dark {
+    font-size: 16px;
+    width: 200px;
+    width: 450px;
+    box-shadow: 0 32px 50px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+Header>.input_header{
+    width: 90%;
+    margin: 16px;
+}
 
 .main {
     display: flex;
